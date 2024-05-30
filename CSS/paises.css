@@ -122,11 +122,10 @@ footer {
   text-shadow: 1px 3px 1px black;
  }
  .content h3{
-  background: linear-gradient(blue, white, red);
-  -webkit-gradient(text);
-  -webkit-text-fill-color: transparent; 
-  background-clip: text;
-   
+  color: #333;
+  text-shadow: 1px 3px 1px #bdbaba;
+
+  
  }
 
  
