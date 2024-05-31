@@ -52,6 +52,7 @@ body {
     border-radius: 5px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
+
   }
   
   .plane:hover {
@@ -73,3 +74,9 @@ body {
     width: 100%;
   }
   
+.about h2{
+  text-align: center;
+}
+.flota{
+  margin-left: 820px;
+}

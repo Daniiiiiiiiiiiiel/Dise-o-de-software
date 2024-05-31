@@ -116,3 +116,11 @@ body {
   button:hover {
       background-color: #0056b3;
   }
+  .content h2{
+    margin: 30px;
+  }
+
+  .content p{
+    max-width: 1300px;
+    margin-left: 260px;
+  }
