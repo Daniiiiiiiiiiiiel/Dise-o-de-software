@@ -5,6 +5,10 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f0f0f0;
+    background-image: url(..//imagenes/uwu\ blanco.jpg);
+    background-repeat: no-repeat;
+    background-size:cover; 
+  
   }
   
   header {
@@ -12,6 +16,7 @@ body {
     color: #fff;
     padding: 20px;
     text-align: center;
+    border-bottom: Inset white;
   }
   
   nav ul {
@@ -72,6 +77,7 @@ body {
     position: fixed;
     bottom: 0;
     width: 100%;
+    border-top: outset white;
   }
   
   /* Animación para la sección Contacto */
@@ -124,6 +130,7 @@ body {
     border-radius: 10px;
     padding: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: outset white;
 }
 .container h2 {
     text-align: center;
@@ -154,3 +161,17 @@ input[type="submit"] {
 input[type="submit"]:hover {
     background-color: #0056b3;
 }
+.content{
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: outset white;
+  }
+
+  #contacto:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+  }

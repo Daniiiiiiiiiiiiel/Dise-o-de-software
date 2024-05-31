@@ -4,6 +4,10 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f0f0f0;
+    background-image: url(..//imagenes/uwu\ blanco.jpg);
+    background-repeat: no-repeat;
+    background-size:cover; 
+  
   }
   
   header {
@@ -11,6 +15,7 @@ body {
     color: #fff;
     padding: 20px;
     text-align: center;
+    border-bottom: Inset white;
   }
   
   nav ul {
@@ -56,12 +61,13 @@ body {
   }
   
   .plane:hover {
-    transform: translateY(-5px);
+    transform: translateY(-5px);  
   }
   
   .plane img {
     width: 100%;
     border-radius: 5px;
+    
   }
   
   footer {
@@ -72,11 +78,23 @@ body {
     position: fixed;
     bottom: 0;
     width: 100%;
+    border-top: outset white;
   }
   
 .about h2{
   text-align: center;
 }
+/*este agregar a los demas color tex shadow*/
 .flota{
-  margin-left: 820px;
+  color: white;
+  text-shadow: 1px 3px 1px black;
+  margin-left: 847px;
+}
+.planes h3{
+  text-align: center;
+}
+
+#contacto:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
 }

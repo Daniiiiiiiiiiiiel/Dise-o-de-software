@@ -4,6 +4,10 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f0f0f0;
+    background-image: url(..//imagenes/uwu\ blanco.jpg);
+    background-repeat: no-repeat;
+    background-size:cover; 
+  
   }
   
   header {
@@ -11,6 +15,7 @@ body {
     color: #fff;
     padding: 20px;
     text-align: center;
+    border-bottom: Inset white;
   }
   
   nav ul {
@@ -68,10 +73,16 @@ body {
     color: #fff;
     text-align: center;
     padding: 10px 0;
-    position: fixed;
+    margin-top: 50px  ;
+    position: sticky;
     bottom: 0;
     width: 100%;
+    border-top: outset white;
+
+    
   }
+
+  
 
   body {
     font-family: Arial, sans-serif;
@@ -81,14 +92,14 @@ body {
     text-align: center;
 }
 h1 {
-    color: #333;
+    color: white;
 }
 p {
-    color: #666;
+    color: rgba(255, 255, 255, 0.712);
 }
 .button {
     display: inline-block;
-    background-color: #007bff;
+    background-color: #51a3fa;
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -102,16 +113,32 @@ p {
     background-color: #0056b3;
 }
 .content p{
+  background-color: #333;
   margin: 20px;
   font-family: Arial, Helvetica, sans-serif;
   border-style: ridge;
   padding: 40px;
-  border-color: #c1d7ee;
+  border-color: white;
+  border-radius: 10px;
 }
 .ayuda{
-  margin-left: 630px;
+  background-color: #333;
+  margin-left: 642px;
   border: outset;
   border-radius: 20px;
   max-width: 600px;
   
+}
+.content h2{
+  color: white;
+  text-shadow: 1px 3px 1px black;
+}
+.content{
+  margin-left: 350px;
+  max-width: 1200px;
+}
+
+#contacto:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
 }
